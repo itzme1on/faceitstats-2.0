@@ -1,0 +1,116 @@
+{
+  "languages": [
+    "english",
+    "russian"
+  ],
+  "translations": {
+    "SUCCESSFULLYSETLANGUAGE": {
+      "english": "You have successfully changed language to English!",
+      "russian": "Вы успешно изменили язык на Русский!"
+    },
+    "LANGUAGEALREADYSELECTED": {
+      "english": "This language has already been selected.",
+      "russian": "Этот язык уже выбран."
+    },
+    "NOPERMISSIONS": {
+      "english": "Sorry, but only owner can use this command.",
+      "russian": "Извините, но использовать эту команду может только создатель сервера."
+    },
+    "CANTGETPLAYERSTATISTIC": {
+      "english": "It is not possible to get statistics of this player. Perhaps it is outdated.",
+      "russian": "Не получается получить статистику этого игрока. Возможно, она устарела."
+    },
+    "PLAYERNOTPLAYEDCSGO": {
+      "english": "This user didn't play CS:GO on Faceit",
+      "russian": "Этот пользователь не играл в CS:GO на Faceit"
+    },
+    "PLAYERCOUNTRY": {
+      "english": "Country",
+      "russian": "Страна"
+    },
+    "SKILLLEVEL": {
+      "english": "Skill level",
+      "russian": "Уровень навыков"
+    },
+    "CURRENTELO": {
+      "english": "Current ELO",
+      "russian": "Очков ELO"
+    },
+    "STEAMNAME": {
+      "english": "Steam name",
+      "russian": "Никнейм Steam"
+    },
+    "MATCHESPLAYED": {
+      "english": "Matches played",
+      "russian": "Матчей сыграно"
+    },
+    "WINS": {
+      "english": "Wins",
+      "russian": "Побед"
+    },
+    "WINRATE": {
+      "english": "Winrate",
+      "russian": "Процент побед"
+    },
+    "LONGESTWINSTREAK": {
+      "english": "Longest winstreak",
+      "russian": "Наибольший винстрик"
+    },
+    "CURRENTWINSTREAK": {
+      "english": "Current winstreak",
+      "russian": "Текущий винстрик"
+    },
+    "AVERAGEHEADSHOTSPERCENTAGE": {
+      "english": "Headshots percentage",
+      "russian": "Процент хедшотов"
+    },
+    "TOTALHEADSHOTSCOUNT": {
+      "english": "Total headshots",
+      "russian": "Общее кол-во хедшотов"
+    },
+    "KD": {
+      "english": "K/D",
+      "russian": "К/Д"
+    },
+    "NOTAVAILABLE": {
+      "english": "N/A",
+      "russian": "Нет данных"
+    },
+    "ERROR": {
+      "english": "There was an error while executing this command!",
+      "russian": "При выполнении этой команды произошла ошибка!"
+    },
+    "ERRORFOOTER": {
+      "english": "Please, report it on my support server - https://discord.gg/Qsr8cAdjxW",
+      "russian": "Пожалуйста, сообщите о ней на сервере поддержки - https://discord.gg/Qsr8cAdjxW"
+    },
+    "HELPTITLE": {
+      "english": "Faceit Stats - Help",
+      "russian": "Faceit Stats - Помощь"
+    },
+    "HELPCOMMAND": {
+      "english": "▸ `/help` - Open this menu",
+      "russian": "▸ `/help` - Открыть это меню"
+    },
+    "PLAYERCOMMAND": {
+      "english": "▸ `/player <nickname>` - Display short player's statistic",
+      "russian": "▸ `/player <никнейм>` - Показать краткую информацию об игроке"
+    },
+    "STATSCOMMAND": {
+      "english": "▸ `/stats <nickname>` - Display all player's statistic",
+      "russian": "▸ `/stats <никнейм>` - Показать всю статистику игрока"
+    },
+    "LANGSETCOMMAND": {
+      "english": "▸ `/languageset <language>` - Set bot language (only for server owners)",
+      "russian": "▸ `/languageset <язык>` - Установить язык бота (только для создателей сервера)"
+    },
+    "TOPGGBUTTON": {
+      "english": "Bot page on Top.gg",
+      "russian": "Страница бота на Top.gg"
+    },
+    "SUPPORTSERVERBUTTON": {
+      "english": "Support server",
+      "russian": "Сервер поддержки"
+    }
+  }
+}
