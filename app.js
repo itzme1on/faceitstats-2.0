@@ -1,10 +1,21 @@
 require('dotenv').config()
+const express = require('express')
 const { readdirSync } = require('fs')
 const languages = require('./languages/language')
 const { Client, Collection, Intents, MessageEmbed } = require('discord.js')
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS]})
 client.commands = new Collection()
+
+const app = express()
+
+app.set('port', (process.env.PORT || 5000))
+app.get('/', function (request, response) {
+    const result = 'App is running';
+    response.send(result)
+}).listen(app.get('port'), function () {
+    console.log('App is running, server is listening on port ', app.get('port'))
+})
 
 const eventFiles = readdirSync('./events/').filter(file => file.endsWith('js'))
 for (const file of eventFiles) {
