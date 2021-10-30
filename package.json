@@ -1,43 +1,49 @@
 {
-  "name": "faceitstats",
-  "version": "2.0.0",
-  "description": "Discord Faceit statistic bot. Allows you to find out information about the player (if, of course, he is registered on Faceit) just using one command!",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/itzme1on/faceitstats.git"
-  },
-  "engines": {
-    "node": "16.8.0"
-  },
-  "keywords": [
-    "Faceit",
-    "CS:GO",
-    "Discord",
-    "discord.js",
-    "djs",
-    "node",
-    "nodejs"
-  ],
-  "author": "itzme1on",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/itzme1on/faceitstats/issues"
-  },
-  "homepage": "https://github.com/itzme1on/faceitstats#readme",
-  "dependencies": {
-    "@discordjs/builders": "^0.6.0",
-    "@discordjs/rest": "^0.1.0-canary.0",
-    "discord-api-types": "^0.23.1",
-    "discord.js": "^13.2.0",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "faceit-js-api": "^0.3.3",
-    "mongoose": "^6.0.10",
-    "request": "^2.88.2",
-    "topgg-autoposter": "^2.0.0"
-  }
+   "name": "faceitstats",
+   "version": "2.1.0",
+   "description": "Discord Faceit statistic bot. Allows you to find out information about the player (if, of course, he is registered on Faceit) just using one command!",
+   "main": "app.js",
+   "scripts": {
+      "start": "node app.js",
+      "prettier": "prettier --write ."
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/itzme1on/faceitstats-2.0.git"
+   },
+   "engines": {
+      "node": "16.8.0"
+   },
+   "keywords": [
+      "Faceit",
+      "CS:GO",
+      "Discord",
+      "discord.js",
+      "djs",
+      "node",
+      "nodejs"
+   ],
+   "author": "Danil Venikov",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/itzme1on/faceitstats-2.0/issues"
+   },
+   "homepage": "https://github.com/itzme1on/faceitstats-2.0/#readme",
+   "dependencies": {
+      "@discordjs/builders": "^0.6.0",
+      "@discordjs/rest": "^0.1.0-canary.0",
+      "discord-api-types": "^0.23.1",
+      "discord.js": "^13.2.0",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "faceit-js-api": "^0.3.3",
+      "mongoose": "^6.0.10",
+      "request": "^2.88.2",
+      "topgg-autoposter": "^2.0.0"
+   },
+   "devDependencies": {
+      "eslint": "^7.32.0",
+      "eslint-config-next": "^12.0.1",
+      "prettier": "^2.4.1"
+   }
 }
