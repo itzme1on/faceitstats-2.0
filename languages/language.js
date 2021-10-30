@@ -31,7 +31,7 @@ module.exports = (interaction, textID) => {
       throw new Error(`Unknown text ID: ${textID}`)
    }
 
-   const selectedLanguage = guildLanguages[interaction.guild.id].toLowerCase()
+   const selectedLanguage = guildLanguages[interaction.guild.id]
 
    return lang.translations[textID][selectedLanguage]
 }
