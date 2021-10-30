@@ -1,6 +1,5 @@
 require('dotenv').config()
 const { log } = require('../functions/log')
-const { MessageEmbed } = require('discord.js')
 const { AutoPoster } = require('topgg-autoposter')
 
 module.exports = {
@@ -16,20 +15,5 @@ module.exports = {
       systemChannel.send(
          `Hey, server owner! You can set bot language via \`/languageset <language>\``
       )
-      let client = guild.client
-      client.users.fetch(process.env.OWNERID).then((owner) => {
-         client.users.fetch(guild.ownerId).then((guildOwner) => {
-            const botAdd = new MessageEmbed()
-               .setColor('#00b200')
-               .setAuthor(`${guild.name} invite me!`)
-               .setDescription(`Server owner: **${guildOwner.tag}**`)
-               .setFooter(`I'm on ${client.guilds.cache.size} servers!`)
-               .setTimestamp()
-
-            owner.send({
-               embeds: [botAdd]
-            })
-         })
-      })
    }
 }
